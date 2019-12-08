@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Data\DayThree.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\DayThree.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
